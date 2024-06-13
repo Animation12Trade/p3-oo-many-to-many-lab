@@ -78,8 +78,6 @@ class Contract:
     def contracts_by_date(cls, date):
         return [contract for contract in cls.all if contract.date == date]
 
-
-# Example test code
 if __name__ == "__main__":
     author = Author("John")
     book = Book("Python Programming")
